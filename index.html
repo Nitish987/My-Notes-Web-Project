@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Notes</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <h3 id="logo">My Notes</h3>
+            <ul id="items">
+                <li>Home</li>
+            </ul>
+            <input type="text" id="search" placeholder="search Notes">
+        </nav>
+    </header>
+    <main>
+        <div id="container">
+            <div id="addnote-container">
+                <h4 id="heading">Add Note :</h4>
+                <input type="text" name="title" id="text-title" placeholder='Title'>
+                <br>
+                <textarea name="text" id="text-note" cols="140" rows="5" placeholder="Note"></textarea>
+                <br>
+                <button id="add-note-btn">Add Note</button>
+            </div>
+            <h3 id="heading-2">Your Added Notes :</h3>
+            <div id="shownote-container">
+
+                <!-- <div id="${index}" class="added-notes">
+                     <h5 class="note-h">${element}</h5>
+                    <p class="note-t">${textData[index]}</p>
+                    <button id="${index}" onclick="deleteButtonAction(this.id)" class="delete-note-btn">Delete</button>
+                </div> -->
+
+            </div>
+        </div>
+    </main>
+    <!-- <footer>
+        <span>&copy; My Notes</span>
+    </footer> -->
+    <script src="/index.js"></script>
+</body>
+</html>
